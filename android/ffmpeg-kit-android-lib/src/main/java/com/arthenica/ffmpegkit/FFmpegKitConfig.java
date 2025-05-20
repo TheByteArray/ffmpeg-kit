@@ -17,7 +17,7 @@
  *  along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit;
+package org.thebytearray.ffmpegkit;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;

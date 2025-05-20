@@ -17,10 +17,10 @@
  * along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit.reactnative;
+package org.thebytearray.ffmpegkit.reactnative;
 
-import com.arthenica.ffmpegkit.FFmpegKitConfig;
-import com.arthenica.ffmpegkit.MediaInformationSession;
+import org.thebytearray.ffmpegkit.FFmpegKitConfig;
+import org.thebytearray.ffmpegkit.MediaInformationSession;
 import com.facebook.react.bridge.Promise;
 
 public class MediaInformationSessionExecuteTask implements Runnable {

@@ -17,9 +17,9 @@
  *  along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit.reactnative;
+package org.thebytearray.ffmpegkit.reactnative;
 
-import static com.arthenica.ffmpegkit.reactnative.FFmpegKitReactNativeModule.LIBRARY_NAME;
+import static org.thebytearray.ffmpegkit.reactnative.FFmpegKitReactNativeModule.LIBRARY_NAME;
 
 import android.util.Log;
 

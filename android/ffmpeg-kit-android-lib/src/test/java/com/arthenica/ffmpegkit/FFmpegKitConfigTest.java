@@ -17,9 +17,9 @@
  * along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit;
+package org.thebytearray.ffmpegkit;
 
-import static com.arthenica.ffmpegkit.FFmpegSessionTest.TEST_ARGUMENTS;
+import static org.thebytearray.ffmpegkit.FFmpegSessionTest.TEST_ARGUMENTS;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
--keep class com.arthenica.ffmpegkit.FFmpegKitConfig {
+-keep class org.thebytearray.ffmpegkit.FFmpegKitConfig {
     native <methods>;
     void log(long, int, byte[]);
     void statistics(long, int, float, float, long , double, double, double);
@@ -6,6 +6,6 @@
     int safClose(int);
 }
 
--keep class com.arthenica.ffmpegkit.AbiDetect {
+-keep class org.thebytearray.ffmpegkit.AbiDetect {
     native <methods>;
 }

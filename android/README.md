@@ -84,7 +84,7 @@ All libraries created by `android.sh` can be found under the `prebuilt` director
 2. Execute synchronous `FFmpeg` commands.
 
     ```java
-    import com.arthenica.ffmpegkit.FFmpegKit;
+    import org.thebytearray.ffmpegkit.FFmpegKit;
 
     FFmpegSession session = FFmpegKit.execute("-i file1.mp4 -c:v mpeg4 file2.mp4");
     if (ReturnCode.isSuccess(session.getReturnCode())) {
@@ -135,7 +135,7 @@ All libraries created by `android.sh` can be found under the `prebuilt` director
     String failStackTrace = session.getFailStackTrace();
 
     // The list of logs generated for this execution
-    List<com.arthenica.ffmpegkit.Log> logs = session.getLogs();
+    List<org.thebytearray.ffmpegkit.Log> logs = session.getLogs();
 
     // The list of statistics generated for this execution
     List<Statistics> statistics = session.getStatistics();
@@ -158,7 +158,7 @@ All libraries created by `android.sh` can be found under the `prebuilt` director
     }, new LogCallback() {
 
         @Override
-        public void apply(com.arthenica.ffmpegkit.Log log) {
+        public void apply(org.thebytearray.ffmpegkit.Log log) {
 
             // CALLED WHEN SESSION PRINTS LOGS
 
@@ -295,7 +295,7 @@ All libraries created by `android.sh` can be found under the `prebuilt` director
         FFmpegKitConfig.enableLogCallback(new LogCallback() {
     
             @Override
-            public void apply(final com.arthenica.ffmpegkit.Log log) {
+            public void apply(final org.thebytearray.ffmpegkit.Log log) {
                 ...
             }
         });

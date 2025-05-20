@@ -17,12 +17,12 @@
  * along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit.flutter;
+package org.thebytearray.ffmpegkit.flutter;
 
 import androidx.annotation.NonNull;
 
-import com.arthenica.ffmpegkit.FFmpegKitConfig;
-import com.arthenica.ffmpegkit.FFprobeSession;
+import org.thebytearray.ffmpegkit.FFmpegKitConfig;
+import org.thebytearray.ffmpegkit.FFprobeSession;
 
 import io.flutter.plugin.common.MethodChannel;
 

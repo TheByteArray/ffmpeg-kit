@@ -17,7 +17,7 @@
  *  along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.arthenica.ffmpegkit.reactnative;
+package org.thebytearray.ffmpegkit.reactnative;
 
 import androidx.annotation.NonNull;
 
